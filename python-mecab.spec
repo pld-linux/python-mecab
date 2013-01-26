@@ -10,10 +10,11 @@ Source0:	http://mecab.googlecode.com/files/mecab-python-%{version}.tar.gz
 # Source0-md5:	d91eae7bf8a22665e9af04b728c4f00f
 URL:		http://code.google.com/p/mecab/
 BuildRequires:	libstdc++-devel
-BuildRequires:	mecab-devel >= 0.994
+BuildRequires:	mecab-devel >= 0.995
 BuildRequires:	python-devel
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.219
+Requires:	mecab >= 0.995
 Requires:	python-libs
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
