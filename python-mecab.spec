@@ -1,13 +1,13 @@
 Summary:	MeCab module for Python
 Summary(pl.UTF-8):	Moduł MeCab dla Pythona
 Name:		python-mecab
-Version:	0.994
+Version:	0.995
 Release:	1
 License:	GPL v2 or LGPL v2.1 or BSD
 Group:		Development/Languages/Python
 #Source0Download: http://code.google.com/p/mecab/downloads/list
 Source0:	http://mecab.googlecode.com/files/mecab-python-%{version}.tar.gz
-# Source0-md5:	fa2ef7b34af6dcb036dc2ec94035a6e0
+# Source0-md5:	d91eae7bf8a22665e9af04b728c4f00f
 URL:		http://code.google.com/p/mecab/
 BuildRequires:	libstdc++-devel
 BuildRequires:	mecab-devel >= 0.994
