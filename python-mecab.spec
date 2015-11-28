@@ -28,17 +28,12 @@ Moduł MeCab dla Pythona.
 %setup -q -n mecab-python-%{version}
 
 %build
-CC="%{__cc}" \
-CFLAGS="%{rpmcflags}" \
-%{__python} setup.py build
+%py_build
 
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__python} setup.py install \
-	--skip-build \
-	--optimize=2 \
-	--root=$RPM_BUILD_ROOT
+%py_install
 
 %py_postclean
 
