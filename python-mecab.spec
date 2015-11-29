@@ -13,7 +13,7 @@ BuildRequires:	libstdc++-devel
 BuildRequires:	mecab-devel >= 0.996
 BuildRequires:	python-devel
 BuildRequires:	rpm-pythonprov
-BuildRequires:	rpmbuild(macros) >= 1.219
+BuildRequires:	rpmbuild(macros) >= 1.710
 Requires:	mecab >= 0.996
 Requires:	python-libs
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
